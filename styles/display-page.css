@@ -1,0 +1,49 @@
+.container {
+    width: 800px
+}
+
+.horiz {
+  height: 200px;
+  width: 50%;
+  display: inline-block;
+  font-size: 0;
+}
+
+.horiz.one {
+    background-color: green;
+    border: 1px black solid;
+}
+
+.horiz.two {
+    background-color: blue;
+    border: 1px black solid;
+}
+
+.lower{
+  height: 300px;
+  width: 33.33%;
+  display: inline-block;
+  font-size: 0;
+}
+
+.lower.col1 {
+    background-color: grey;
+    border: 1px black solid;
+
+}
+
+.lower.col2 {
+    background-color: black;
+    border: 1px black solid;
+
+}
+
+.lower.col3 {
+    background-color: orange;
+    border: 1px black solid;
+
+}
+
+body {
+    font-size: 0px;
+}
