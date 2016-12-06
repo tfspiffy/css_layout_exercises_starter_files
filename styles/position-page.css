@@ -1,1 +1,44 @@
+html {
+  background: url("file:///home/gspivey/Documents/Development/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
+nav {
+  background-color: grey;
+  padding-top: 10px;
+  padding-right: 10px;
+  border: 1px solid black;
+  height: 50px;
+}
+
+.header {
+  position: relative;
+  left: 200px;
+
+}
+
+.logo {
+  position: absolute;
+  left: 10px;
+}
+
+
+
+.image{
+    height: 200px;
+    width: 200px;
+}
+
+.cat {
+    position: relative;
+    left: 10%;
+}
+
+.dog {
+    position: relative;
+    left: 600px;
+    top: 200px;
+}
